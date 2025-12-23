@@ -5,13 +5,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/tecno/kelly
+LOCAL_PATH := device/tecno/BF7
 
 # A/B
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
-    gz \
     lk \
     logo \
     md1img \
