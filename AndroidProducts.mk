@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fox_kelly.mk
+    $(LOCAL_DIR)/fox_BF7.mk
     
 COMMON_LUNCH_CHOICES := \
-    fox_kelly-user \
-    fox_kelly-userdebug \
-    fox_kelly-eng
+    fox_BF7-user \
+    fox_BF7-userdebug \
+    fox_BF7-eng
