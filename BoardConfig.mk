@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/kelly
+DEVICE_PATH := device/tecno/BF7
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -23,10 +23,10 @@ TARGET_CPU_VARIANT_RUNTIME := cortex-a53
 TARGET_USES_64_BIT_BINDER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := kelly
+TARGET_OTA_ASSERT_DEVICE := BF7
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := CY-KG5J-H6511-C
+TARGET_BOOTLOADER_BOARD_NAME := BF7
 TARGET_NO_BOOTLOADER := true
 
 # Platform
@@ -48,8 +48,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-TARGET_KERNEL_CONFIG := kelly_defconfig
-TARGET_KERNEL_SOURCE := kernel/tecno/kelly
+TARGET_KERNEL_CONFIG := BF7_defconfig
+TARGET_KERNEL_SOURCE := kernel/tecno/BF7
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
