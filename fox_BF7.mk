@@ -23,6 +23,6 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 PRODUCT_DEVICE := BF7
 PRODUCT_NAME := fox_BF7
 PRODUCT_BRAND := tecno
-PRODUCT_MODEL := BF7
+PRODUCT_MODEL := TECNO BF7
 PRODUCT_MANUFACTURER := Tecno
 PRODUCT_RELEASE_NAME := Tecno Spark Go 2023 (BF7)
